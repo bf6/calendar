@@ -1,0 +1,60 @@
+body {
+	font-family: "Arial"
+}
+
+div#container {
+	text-align: center;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+table {
+	margin: 0 auto;
+	border-spacing: 0;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+th {
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 10px;
+}
+
+td {
+	padding: 10px;
+}
+
+tr > *:first-child, tr > *:last-child {
+	color: red;
+}
+
+button {
+	background-color: transparent;
+	border: 0;
+	position: absolute;
+	top: 150px;
+	outline: none;
+}
+
+img {
+	height: 40px;
+	width: 40px;
+}
+
+button#next {
+	left: 300px;
+}
+
+button#prev {
+	right: 300px;
+}
+
+button#prev img {
+	transform: rotate(180deg);
+}
